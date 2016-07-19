@@ -7,5 +7,5 @@ Things you may want to cover:
 
 Followed the McKenzie Child tutorial with some important distinguishing features:
 - Built in Rails 5 instead of Rails 4
-- Slim has replaced Haml
-- Custom Styling
+- Slim has replaced ERB
+- Customised Styling ('cause I'm crazy like that)

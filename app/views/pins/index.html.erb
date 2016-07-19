@@ -1,7 +1,5 @@
-doctype html
-html
-  head
-    title Slim Examples
+<%= link_to "Create a pin", new_pin_path %>
 
-  body
-    h1 THIS IS THE IMAGE PLACEHOLDER
+<% @pins.each do |pin| %>
+  <h2> <%= link_to pin.title, pin %> </h2>
+<% end %>
