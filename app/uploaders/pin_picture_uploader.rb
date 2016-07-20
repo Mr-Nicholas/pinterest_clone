@@ -22,8 +22,8 @@ class PinPictureUploader < CarrierWave::Uploader::Base
     ['application/text', 'application/json']
   end
 
-  def public_id
-    return model.short_name
-  end
+  # def public_id
+  #   return model.short_name
+  # end
 
 end

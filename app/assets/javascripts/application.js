@@ -13,10 +13,12 @@
 //= require jquery
 //= require bootstrap-sprockets
 //= require jquery_ujs
+//= require jquery.turbolinks
+//= require masonry/jquery.masonry
 //= require turbolinks
 //= require_tree .
 
-// Javascript Styling
+
 var navbarHeight = $('.navbar').height();
 
 $(window).scroll(function() {
@@ -49,3 +51,7 @@ $(window).scroll(function() {
   } else {
     $('.navbar').css({"box-shadow": "none"});
   }
+
+  
+
+});

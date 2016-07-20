@@ -6,7 +6,8 @@
 - Rails 5 != Rails 4
 - ERB != Slim
 - Carrierwave != Paperclip
-- Cloudinary integration (including cache reloading)
+- Cloudinary integration (including image caching)
+- Visible pin creation date
 - Customised Bootstrap Styling ('cause I'm crazy like that)
 
 ### Steps
@@ -15,3 +16,8 @@
 - User will need to upload their cloudinary.yml file and place inside config folder
 
 ### Current project is still in progress
+#### To do list
+- Once a user deletes their account, delete their images
+- ?
+- Make a million dollars
+- Deploy to Heroku
