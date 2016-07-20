@@ -1,9 +1,17 @@
 # README
 
-Followed the McKenzie Child tutorial with some important distinguishing features:
+## Pinterest Clone: 'Pinteresting'
+
+### Inspired by McKenzie Child with some important distinguishing features:
 - Rails 5 != Rails 4
 - ERB != Slim
 - Carrierwave != Paperclip
+- Cloudinary integration (including cache reloading)
 - Customised Bootstrap Styling ('cause I'm crazy like that)
 
-# Current project is still in progress
+### Steps
+- bundle install
+- rails db:migrate
+- User will need to upload their cloudinary.yml file and place inside config folder
+
+### Current project is still in progress
