@@ -1,11 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
 Followed the McKenzie Child tutorial with some important distinguishing features:
-- Built in Rails 5 instead of Rails 4
-- Slim has replaced ERB
-- Customised Styling ('cause I'm crazy like that)
+- Rails 5 != Rails 4
+- ERB != Slim
+- Carrierwave != Paperclip
+- Customised Bootstrap Styling ('cause I'm crazy like that)
+
+# Current project is still in progress
