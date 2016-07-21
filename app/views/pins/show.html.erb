@@ -14,9 +14,17 @@
             <%= @pin.description %>
           </p>
           <p class="card-text"><small class="text-muted">Created <%= time_ago_in_words(@pin.created_at) %> ago</small></p>
-          <%= link_to "Back", root_path, class: "btn btn-default" %>
-          <%= link_to "Edit", edit_pin_path, class: "btn btn-default" %>
-          <%= link_to "Delete", pin_path, class: "btn btn-danger", method: :delete, data: { confirm: "You sure hombre?" } %>
+          <div class="btn-group">
+            <%= link_to like_pin_path(@pin), method: :put, class: "btn btn-default" do %>
+            <span class="glyphicon glyphicon-heart"></span>
+            <%= @pin.get_upvotes.size %>
+            <% end %>
+            <% if user_signed_in? %>
+              <%= link_to "Edit", edit_pin_path, class: "btn btn-default" %>
+              <%= link_to "Delete", pin_path, method: :delete, data: { confirm: "Are you sure?" }, class: "btn btn-default" %>
+              <%= link_to "Delete", pin_path, class: "btn btn-danger", method: :delete, data: { confirm: "You sure hombre?" } %>
+            <% end %>
+          </div>
         </div>
       </div>
     </div>

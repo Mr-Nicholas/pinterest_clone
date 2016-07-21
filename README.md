@@ -8,6 +8,7 @@
 - Carrierwave != Paperclip
 - Cloudinary integration (including image caching)
 - Visible pin creation date
+- Postgres database != SQLite
 - Customised Bootstrap Styling ('cause I'm crazy like that)
 
 ### Steps
