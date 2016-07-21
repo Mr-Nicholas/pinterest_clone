@@ -13,8 +13,8 @@
 //= require jquery
 //= require bootstrap-sprockets
 //= require jquery_ujs
-//= require jquery.turbolinks
 //= require masonry/jquery.masonry
+//= require jquery.turbolinks
 //= require turbolinks
 //= require_tree .
 
@@ -52,6 +52,6 @@ $(window).scroll(function() {
     $('.navbar').css({"box-shadow": "none"});
   }
 
-  
+
 
 });

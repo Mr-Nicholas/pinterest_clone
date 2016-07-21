@@ -1,4 +1,4 @@
-<div id="pins" class="position-enabled">
+<div id="pins" class="transitions-enabled">
   <% @pins.each do |pin| %>
     <div class="box panel panel-default">
       <%= link_to (image_tag pin.picture.url), pin %>
@@ -6,7 +6,7 @@
           <div class="card-block">
             <h2 class="card-title"><%= link_to pin.title, pin %></h2>
             <p class="card-text"><%= pin.description %></p>
-            <p class="card-text"><small class="text-muted">Created <%= time_ago_in_words(pin.created_at) %> ago</small></p>
+            <p class="card-text"><small class="text-muted">Posted by <%= pin.user.email %></p></small>
           </div>
         </div>
       </div>

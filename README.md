@@ -18,6 +18,7 @@
 ### Current project is still in progress
 #### To do list
 - Once a user deletes their account, delete their images
+- Configure gem 'jquery-turbolinks' (Not currently supporting Rails 5)
 - ?
 - Make a million dollars
 - Deploy to Heroku
