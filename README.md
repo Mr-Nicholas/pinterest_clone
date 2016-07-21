@@ -1,6 +1,7 @@
 # README
 
 ## Pinterest Clone: 'Pinteresting'
+<iframe src='https://gfycat.com/ifr/OfficialDistortedGrunion' frameborder='0' scrolling='no' width='640' height='351.64835164835165' allowfullscreen></iframe>
 
 ### Inspired by McKenzie Child with some important distinguishing features:
 - Rails 5 != Rails 4
@@ -14,7 +15,7 @@
 ### Steps
 - bundle install
 - rails db:migrate
-- User will need to upload their cloudinary.yml file and place inside config folder
+- User will need to upload their account cloudinary.yml file and place inside this project's config folder
 
 ### Current project is still in progress
 #### To do list
