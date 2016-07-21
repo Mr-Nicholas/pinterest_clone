@@ -1,7 +1,7 @@
 # README
 
 ## Pinterest Clone: 'Pinteresting'
-<iframe src='https://gfycat.com/ifr/OfficialDistortedGrunion' frameborder='0' scrolling='no' width='640' height='351.64835164835165' allowfullscreen></iframe>
+https://gfycat.com/ifr/OfficialDistortedGrunion
 
 ### Inspired by McKenzie Child with some important distinguishing features:
 - Rails 5 != Rails 4
