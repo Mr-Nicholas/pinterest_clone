@@ -9,17 +9,18 @@ https://gfycat.com/ifr/OfficialDistortedGrunion
 - Carrierwave != Paperclip
 - Cloudinary integration (including image caching)
 - Visible pin creation date
-- Postgres database != SQLite
+- Postgres != SQLite
 - Customised Bootstrap Styling ('cause I'm crazy like that)
 
 ### Steps
 - bundle install
 - rails db:migrate
-- User will need to upload their account cloudinary.yml file and place inside this project's config folder
+- install and run Postgres locally
+- you will need to upload your cloudinary.yml file and place inside this project's config folder
+- fire up http://localhost:3000/
 
 ### Current project is still in progress
 #### To do list
-- Once a user deletes their account, delete their images
 - Configure gem 'jquery-turbolinks' (Not currently supporting Rails 5)
 - ?
 - Make a million dollars
